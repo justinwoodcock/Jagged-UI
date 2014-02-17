@@ -1,0 +1,17 @@
+{
+  "name": "Jagged-UI",
+  "description": "An Angular Module for awesome UI.",
+  "version": "0.1.0",
+  "devDependencies": {
+    "gulp-notify": "latest",
+    "gulp-uglify": "latest",
+    "gulp-concat": "latest",
+    "gulp-rename": "latest",
+    "gulp-less": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-cssbeautify": "latest",
+    "gulp-watch": "latest"
+  }
+}

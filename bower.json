@@ -1,0 +1,8 @@
+{
+    "name": "Jagged UI",
+    "dependencies": {
+        "angular" : "latest",
+        "bootstrap" : "latest",
+        "font-awesome" : "latest"
+    }
+}
