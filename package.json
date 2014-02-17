@@ -12,6 +12,7 @@
     "gulp-csscomb": "latest",
     "gulp-minify-css": "latest",
     "gulp-cssbeautify": "latest",
-    "gulp-watch": "latest"
+    "gulp-watch": "latest",
+    "gulp-connect": "latest"
   }
 }

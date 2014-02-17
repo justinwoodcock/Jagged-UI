@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
 	watch = require('gulp-watch'),
+	connect = require('gulp-connect'),
 	notify = require('gulp-notify'),
 	rename = require('gulp-rename'),
 	uglify = require('gulp-uglify'),
@@ -11,13 +12,29 @@ var gulp = require('gulp'),
 
 
 gulp.task('default', function() {
-	gulp.start('movefonts', 'styles', 'scripts', 'watch');
+	gulp.start('connect', 'movefonts', 'thirdpartystyles', 'styles', 'scripts', 'watch');
 });
+
+gulp.task('connect', connect.server({
+	root: ['app'],
+	port: 1337,
+	livereload: true,
+	open: {
+		browser: 'Google Chrome'
+	}
+}));
+
+gulp.task('thirdpartystyles', function() {
+	return gulp.src([
+		'thirdparty/bootstrap/dist/css/bootstrap.min.css',
+		'thirdparty/font-awesome/css/font-awesome.min.css',
+	])
+	.pipe(concat('thirdparty.min.css'))
+	.pipe(gulp.dest('app/css/'));
+})
 
 gulp.task('styles', function() {
 	return gulp.src([
-			'thirdparty/bootstrap/dist/css/bootstrap.min.css',
-			'thirdparty/font-awesome/css/font-awesome.min.css',
 			'app/less/jagged.less'
 		])
 		.pipe(less())
@@ -28,6 +45,8 @@ gulp.task('styles', function() {
 		.pipe(gulp.dest('app/css'))
 		.pipe(notify("New jagged.min.css file generated."));
 });
+
+
 
 gulp.task('movefonts', function() {
 	gulp.src([
@@ -41,7 +60,7 @@ gulp.task('scripts', function() {
 	return gulp.src([
 			'thirdparty/angular/angular.min.js',
 			'app/js/src/module.jagged.js', 
-			'app/js/src/jagged/*.js'
+			'app/js/src/jagged/**'
 		])
 		.pipe(concat('jagged.min.js'))
 		.pipe(uglify({outSourceMap: true}))
@@ -50,6 +69,6 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('watch', function() {
-	gulp.watch('app/js/src/*.js', ['scripts']);
-	gulp.watch('app/less/*.less', ['styles']);
+	gulp.watch('app/js/src/**', ['scripts']);
+	gulp.watch('app/less/**', ['styles']);
 })
