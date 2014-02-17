@@ -1,0 +1,28 @@
+<nav class="jaggedNav">
+	<ul class="parentItems">
+		<li ng-repeat="item in items" 
+			class="parentItem" 
+			id="{{item.text}}" 
+			ng-class="{
+				'showChildren': menu.showChildren
+			}" 
+		>
+
+			<a href="{{item.url}}">
+				<i class="fa {{item.icon}} fa-2x"></i>
+			</a>
+
+			<div ng-if="item.children.length > 0" class="jaggedSubNav">
+          		<h3 class="title">
+          			<i class="fa {{item.icon}}"></i>
+          			{{item.text}}
+          		</h3>
+          		<ul class="childItems">
+            		<li ng-repeat="child in item.children" class="childItem">
+            			<a href="{{child.url}}">{{child.text}}</a>
+            		</li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+</nav>

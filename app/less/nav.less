@@ -1,0 +1,45 @@
+.jaggedNav {
+	position: fixed;
+	left: 0;
+	top: @navWidth;
+	z-index: 9999;
+	width: @navWidth;
+	height: 100%;
+
+	.parentItems {
+		.resetUL;
+
+	}
+
+	.parentItem {
+		width: @navWidth;
+		height: @navWidth;
+
+		a {
+			display: block;
+			text-align: center;
+			height: 100%;
+		}
+
+		i {
+			margin-top: 11px;
+		}
+
+	}
+
+}
+
+.jaggedSubNav {
+	width: 0;
+	overflow: hidden;
+	display: none;
+
+	.childItems {
+		.resetUL;
+	}
+
+	.childItem {
+
+	}
+
+}
