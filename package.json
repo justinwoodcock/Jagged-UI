@@ -3,6 +3,7 @@
   "description": "An Angular Module for awesome UI.",
   "version": "0.1.0",
   "devDependencies": {
+  	"gulp": "latest",
     "gulp-notify": "latest",
     "gulp-uglify": "latest",
     "gulp-concat": "latest",
