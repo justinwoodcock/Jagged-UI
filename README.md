@@ -1,4 +1,4 @@
-#Jagged UI
+![](https://raw2.github.com/justinwoodcock/Jagged-UI/master/psd/jaggedUI.Logo.v0.1.png)
 ###AngularJS module for Awesome UI
 Jagged is trying to fill some gaps in webapp UX/UI while advocating the advancement of [AngularJS](http://angularjs.org).
 
