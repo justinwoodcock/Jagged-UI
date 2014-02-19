@@ -1,10 +1,11 @@
 .jaggedNav {
 	position: fixed;
 	left: 0;
-	top: @navWidth;
+	top: 52px;
 	z-index: 9999;
 	width: @navWidth;
 	height: 100%;
+	background: @navBGColor;
 
 	.parentItems {
 		.resetUL;
@@ -14,15 +15,24 @@
 	.parentItem {
 		width: @navWidth;
 		height: @navWidth;
+		border-bottom: 1px solid rgba(0,0,0,0.1);
+		box-shadow: inset 0 0 1px rgba(255,255,255,0.35);
 
 		a {
 			display: block;
 			text-align: center;
 			height: 100%;
+			color: rgba(255,255,255,0.8);
+		}
+
+		a:hover {
+			background: rgba(0,0,0,0.1);
+			box-shadow: inset 0 0 1px rgba(0,0,0,0.5);
 		}
 
 		i {
-			margin-top: 11px;
+			margin-top: 17px;
+			text-shadow: -1px -1px 0px rgba(0,0,0,.25);
 		}
 
 	}
