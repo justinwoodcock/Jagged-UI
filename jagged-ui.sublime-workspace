@@ -1,0 +1,597 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"han",
+				"handleNewCategory"
+			],
+			[
+				"post",
+				"postCategory"
+			],
+			[
+				"cat",
+				"categories"
+			],
+			[
+				"cate",
+				"categoryData"
+			],
+			[
+				"ca",
+				"campaign-manager"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"typ",
+				"typeaheadElement$"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"drop",
+				"dropdownMenu$"
+			],
+			[
+				"a",
+				"autocomplete-dropdown"
+			],
+			[
+				"pa",
+				"partials"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"re",
+				"req	require \"..\""
+			],
+			[
+				"openE",
+				"openEasingDelay"
+			],
+			[
+				"openS",
+				"openScrollEasing"
+			],
+			[
+				"closeS",
+				"closeScrollDuration"
+			],
+			[
+				"clos",
+				"closeScrollDuration"
+			],
+			[
+				"header",
+				"headerHeight"
+			],
+			[
+				"bu",
+				"buttonOffset"
+			],
+			[
+				"Stam",
+				"StampedeMenu"
+			],
+			[
+				"par",
+				"parentItem"
+			],
+			[
+				"S",
+				"StampedeMenu"
+			],
+			[
+				"sub",
+				"subnavOpen"
+			],
+			[
+				"show",
+				"showBG"
+			],
+			[
+				"stop",
+				"stopAnimations"
+			],
+			[
+				"is",
+				"isActive"
+			],
+			[
+				"hid",
+				"hideSubnav"
+			],
+			[
+				"acti",
+				"activeElement"
+			],
+			[
+				"ac",
+				"activeElement"
+			],
+			[
+				"su",
+				"subnavBG"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"Global",
+				"GlobalSearchController"
+			],
+			[
+				"Glo",
+				"GlobalSearchController"
+			],
+			[
+				"Gl",
+				"GlobalSearchController"
+			],
+			[
+				"sear",
+				"searchInput"
+			],
+			[
+				"primaryCo",
+				"primaryColor"
+			],
+			[
+				"primar",
+				"primaryColorLight"
+			],
+			[
+				"prima",
+				"primaryColorDark"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"car",
+				"carousel-control"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 225.0,
+		"selected_items":
+		[
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ng",
+				"Set Syntax: nginx"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"syn",
+				"Set Syntax: JSON"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"LESS",
+				"Set Syntax: LESS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/APIBundle/Controller/SegmentsController.php",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/APIBundle/Controller/CategoriesController.php",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/APIBundle/Entity/Category.php",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/APIBundle/Entity/Segment.php",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/config/routing.yml",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/campaign-manager.html.twig",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/campaign-manager/campaign-manager.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/Gruntfile.js",
+		"/Users/justin/Sites/Stampede/Vagrantfile",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/typography.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/forms.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/buttons.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/campaign-manager/campaign-manager.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/config/services.yml",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/campaign-manager/campaign-list.partial.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/ui-components.grunt.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/campaign-manager/module.campaign-manager.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Controller/ViewController.php",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/campaign-manager/routing.campaign-manager.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/routing.stampede.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/tasks/campaign-manager.grunt.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/variables.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components/upload.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/tasks/ui-components.grunt.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components/searchadd.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/ui-components/searchadd/searchadd.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/ui-components/upload/upload.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/templates/searchadd.template.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/ui-components/searchadd.partial.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/templates/autocomplete-dropdown.template.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/ui-components/autocomplete-dropdown/autocomplete-dropdown.js",
+		"/Users/justin/Sites/Stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/private/js/ue-strap/menu/UEStrapMenuController.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/templates/upload.template.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/ui-components/upload.partial.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components/typeahead.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/templates/typeahead.template.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/ui-components/typeahead.partial.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/ui-components/typeahead/typeahead.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/mixins.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/FacebookAdsAPIBundle/Controller/FacebookAdsAPIController.php",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/js/stampede-vendor.min.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/FacebookAdsAPIBundle/Objects/TargetingObjects/AutoCompleteData.php",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/FacebookAdsAPIBundle/Controller/AutoCompleteController.php",
+		"/Users/justin/Sites/Stampede/files/dot/.zshrc",
+		"/Users/justin/Sites/Stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/private/js/ue-strap/menu/UEStrapMenuFactory.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/ui-components/all.partial.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components/demo.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components/typeahead.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/ui-components/messages/messages.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components/messages.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/ui-components/dropdown/dropdown.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/templates/dropdown.template.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/templates/messages.template.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/stampede-app.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/ui-components/tags/tags.stampede.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/ui-components/autocomplete-dropdown.partial.html",
+		"/Users/justin/Sites/Stampede/Symfony/web/assets/templates/messages.template.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/templates/messages/message.template.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/templates/messages/message-group.template.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/ui-components/messages.partial.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/ui-components/dropdown.partial.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/ui-components/tags.partial.html",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components/dropdown.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/ui-components/title.partial.html",
+		"/Users/justin/Sites/Stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/views/layout.html.twig",
+		"/Users/justin/Sites/Stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/views/Partial/nav.html.twig",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components/autocomplete-dropdown.less",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/layout.html.twig",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/ui-components.html.twig",
+		"/Users/justin/Codes/archive/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/bower.json",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/bower.json",
+		"/Users/justin/Codes/archive/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/tasks/ui-components.grunt.js",
+		"/Users/justin/Sites/Stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/ui-components-title.partial.html",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/ui-components.partial.html",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/ui-components.html.twig",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/index.html.twig",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/layout.html.twig",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/DependencyInjection/UEStampedeViewExtension.php",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/config/routing.yml",
+		"/Users/justin/Codes/stampede/Symfony/app/config/routing.yml",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Controller/ViewController.php",
+		"/Users/justin/Codes/stampede/puppet/manifests/default.pp",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/messages/messages.js",
+		"/Users/justin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/messages.partial.html",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/private/js/ue-strap/menu/UEStrapMenuController.js",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components/dropdown.less",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/autocomplete-dropdown.partial.html",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/autocomplete-dropdown/autocomplete-dropdown.js",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/templates/autocomplete-dropdown.template.html",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components/autocomplete-dropdown.less",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components.less",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/tags/tags.stampede.js",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/css/ui-components.css",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/dropdown/dropdown.js",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/templates/tags.template.html",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/tasks/ui-components.grunt.js",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/dropdown.partial.html",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/private/.bowerrc",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/private/bower.json",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/private/Gruntfile.js",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/public/js/vendor.min.js",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/ui-components/tags.less",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/public/partials/tags.partial.html",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/buttons.less",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/less/mixins.less",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/views/Partial/admin-bar.html.twig",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/js/stampede-tags/tags.stampede.js",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/private/js/angular/directives/BootstrapDropdownDirective.js",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/public/templates/dropdown.template.html",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/private/js/ue-strap/menu/UEStrapMenuDirective.js",
+		"/Users/justin/Codes/stampede/Symfony/app/config/config_dev.yml",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/bower.json",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/views/Partial/footer.html.twig",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/views/layout.html.twig",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/views/Partial/head.html.twig",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/private/js/ue-strap/menu/menu.ue-strap.template.html",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/public/js/ue-strap/menu/UEStrapMenuDirective.js",
+		"/Users/justin/Codes/stampede/Symfony/web/bundles/uecodeview/js/.gitkeep",
+		"/Users/justin/Codes/stampede/Symfony/vendor/ue-software/view-bundle/src/Uecode/Bundle/ViewBundle/Resources/Gruntfile.js",
+		"/Users/justin/Codes/stampede/Symfony/app/config/config.yml",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/private/Gruntfile.js",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/js/stampede-tags/TagComponentDirective.js",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/templates/tags.template.html",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/tasks/ui-components.grunt.js",
+		"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views/View/assets/less/ui-components/tags.less",
+		"/Users/justin/Codes/frontline/files/nginx/laravel.conf"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/justin/Sites/Stampede",
+			"/Users/justin/Codes/stampede",
+			"/Users/justin/Codes/stampede/Symfony/src/UE/Stampede/ViewBundle/Resources/views",
+			"/Users/justin/Codes/stampede"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"categoryName",
+			"segm",
+			"addCat",
+			"add",
+			"path",
+			"api/images",
+			"images",
+			"route",
+			"view_",
+			"/grunt",
+			"twig",
+			"route",
+			"assetic:",
+			"assetic",
+			"ui-router",
+			"Gruntfile.js",
+			"setup",
+			"node",
+			"npm",
+			"min=\"0\" max=\"1000\" ",
+			"close",
+			"app/libraries/thirdparty",
+			"app/",
+			"]]",
+			"[[",
+			"}}",
+			"{{",
+			"Stampede",
+			"'",
+			"children",
+			"url",
+			"text",
+			"icon",
+			"stampede-",
+			"Menu",
+			"search",
+			"ng-app",
+			"topBarShadow",
+			"s ",
+			"StampedeMenu.subnavOpen",
+			"hover",
+			"childItem",
+			"childrenItems",
+			"activeElement",
+			"font",
+			"hideB",
+			"stopA",
+			"subnavOpen",
+			"li.active",
+			"remove",
+			"console",
+			"hideSubnav",
+			"checkHover",
+			"isHovered",
+			"checkH",
+			"hovering",
+			"remove",
+			"font",
+			"search",
+			">\n",
+			"gold",
+			"archivonarrow-",
+			"red",
+			"ostrich-sans-",
+			"font//",
+			"'../font",
+			"'./font",
+			"'font/",
+			"../font",
+			"../font-weight: 900;\n	../font-style: normal;",
+			"../font-family:",
+			"font",
+			"ostrich-sans"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"open",
+			"public/thirdparty",
+			"public/",
+			"}}",
+			"{{",
+			"]]",
+			"[[",
+			"\"",
+			"\"children\"",
+			"\"url\"",
+			"\"text\"",
+			"\"icon\"",
+			"childItems",
+			"childItem",
+			"font/archivonarrow-",
+			"@gold",
+			"ostrich-",
+			"font/",
+			"'font",
+			"'../font/",
+			"'/font/",
+			"'./font/",
+			"font",
+			"font/ostrich-sans",
+			"font-family:",
+			"../font",
+			"font/ostrich-sans"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.486279608973,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true
+}
