@@ -1,0 +1,82 @@
+[
+	{
+		"icon": "fa-bullhorn",
+		"text": "Campaigns",
+		"url": "#",
+		"children": [
+			{
+				"text": "Campaign Item",
+				"url": "#"
+			},
+			{
+				"text": "Campaign Item",
+				"url": "#"
+			},
+			{
+				"text": "Campaign Item",
+				"url": "#"
+			}
+		]
+	},
+	{
+		"icon": "fa-tachometer",
+		"text": "Dashboard",
+		"url": "#",
+		"children": [
+			{
+				"text": "Dashboard Item",
+				"url": "#"
+			},
+			{
+				"text": "Dashboard Item",
+				"url": "#"
+			},
+			{
+				"text": "Dashboard Item",
+				"url": "#"
+			},
+			{
+				"text": "Dashboard Item",
+				"url": "#"
+			},
+			{
+				"text": "Dashboard Item",
+				"url": "#"
+			}
+		]
+	},
+	{
+		"icon": "fa-flask",
+		"text": "Lab",
+		"url": "#",
+		"children": [
+			{
+				"text": "Lab Item",
+				"url": "#"
+			},
+			{
+				"text": "Lab Item",
+				"url": "#"
+			}
+		]
+	},
+	{
+		"icon": "fa-cogs",
+		"text": "Settings",
+		"url": "#",
+		"children": [
+			{
+				"text": "Settings Item",
+				"url": "#"
+			},
+			{
+				"text": "Settings Item",
+				"url": "#"
+			},
+			{
+				"text": "Settings Item",
+				"url": "#"
+			}
+		]
+	}
+]

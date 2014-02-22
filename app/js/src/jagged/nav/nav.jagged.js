@@ -1,95 +1,32 @@
-JaggedUI.controller('JaggedNavController', ['$scope', '$attrs', function($scope, $attrs) {
+JaggedUI.factory('NavItems', ['$http', function($http) {
+	return {
+		getItems: function(path) {
+
+			// Ajax GET request to return JSON menu items.
+			return $http.get(path);
+
+		}
+	}
+}]);
+
+JaggedUI.controller('JaggedNavController', ['$scope', '$attrs', 'NavItems', function($scope, $attrs, NavItems) {
 	
-	var path = $attrs.path;
+	var path = $attrs.items;
+
+	console.log(path);
 
 	var handleSuccess = function(data) {
 		$scope.items = data;
 	}
 
-	//MenuItems.getItems(path).success(handleSuccess);
+	NavItems.getItems(path).success(handleSuccess);
 
-	$scope.items = [
-		{
-			"icon": "fa-bullhorn",
-			"text": "Campaigns",
-			"url": "#",
-			"children": [
-				{
-					"text": "Campaign Item",
-					"url": "#"
-				},
-				{
-					"text": "Campaign Item",
-					"url": "#"
-				},
-				{
-					"text": "Campaign Item",
-					"url": "#"
-				}
-			]
-		},
-		{
-			"icon": "fa-tachometer",
-			"text": "Dashboard",
-			"url": "#",
-			"children": [
-				{
-					"text": "Dashboard Item",
-					"url": "#"
-				},
-				{
-					"text": "Dashboard Item",
-					"url": "#"
-				},
-				{
-					"text": "Dashboard Item",
-					"url": "#"
-				},
-				{
-					"text": "Dashboard Item",
-					"url": "#"
-				},
-				{
-					"text": "Dashboard Item",
-					"url": "#"
-				}
-			]
-		},
-		{
-			"icon": "fa-flask",
-			"text": "Lab",
-			"url": "#",
-			"children": [
-				{
-					"text": "Lab Item",
-					"url": "#"
-				},
-				{
-					"text": "Lab Item",
-					"url": "#"
-				}
-			]
-		},
-		{
-			"icon": "fa-cogs",
-			"text": "Settings",
-			"url": "#",
-			"children": [
-				{
-					"text": "Settings Item",
-					"url": "#"
-				},
-				{
-					"text": "Settings Item",
-					"url": "#"
-				},
-				{
-					"text": "Settings Item",
-					"url": "#"
-				}
-			]
-		}
-	];
+	$scope.navControl = function(event) {
+		$scope.navOpen = !$scope.navOpen;
+
+		var mainView = angular.element(document.querySelector('.mainView'));
+		mainView.toggleClass('push');
+	}
 
 }]);
 
@@ -98,31 +35,7 @@ JaggedUI.directive('jaggedNav', [function() {
 	return {
 		restrict: 'A',
 		replace: true,
-		link: function($scope, element, attrs) {
-
-			/*$scope.menu = {
-				show: false,
-				showChildren: false,
-				firstTime: true
-			};
-
-			$scope.showChildren = function($event){
-
-				var $menuItem = $($event.currentTarget);
-
-				$menuItem.addClass('showChildren');
-				
-			};
-
-			$scope.hideChildren = function($event){
-				
-				var $menuItem = $($event.currentTarget);
-
-				$menuItem.removeClass('showChildren');
-
-			};*/
-
-		},
+		link: function($scope, element, attrs) {},
 		templateUrl: 'templates/nav.template.jagged.html'
 	};
 
