@@ -36,7 +36,7 @@ JaggedUI.directive('jaggedNav', [function() {
 		restrict: 'A',
 		replace: true,
 		link: function($scope, element, attrs) {},
-		templateUrl: 'templates/nav.template.jagged.html'
+		templateUrl: '/templates/nav.template.jagged.html'
 	};
 
 }]);
